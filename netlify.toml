@@ -7,6 +7,6 @@
 
 [build.environment]
   NODE_VERSION = "20"
-  # Must be production — NODE_ENV=development breaks /404 & /500 prerender
-  # with "<Html> should not be imported outside of pages/_document".
-  NODE_ENV = "production"
+  # Do NOT set NODE_ENV=production here — Netlify's `npm install` would skip
+  # devDependencies (typescript, etc.) and break next build.
+  # NODE_ENV is set only for the build script in package.json.
