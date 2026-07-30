@@ -7,3 +7,6 @@
 
 [build.environment]
   NODE_VERSION = "20"
+  # Must be production — NODE_ENV=development breaks /404 & /500 prerender
+  # with "<Html> should not be imported outside of pages/_document".
+  NODE_ENV = "production"
