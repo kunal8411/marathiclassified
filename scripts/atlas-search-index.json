@@ -1,0 +1,18 @@
+# Create this Atlas Search index on the `ads` collection (name: ads_search)
+
+{
+  "mappings": {
+    "dynamic": false,
+    "fields": {
+      "title": [
+        { "type": "string", "analyzer": "lucene.standard" },
+        { "type": "autocomplete", "tokenization": "edgeGram", "minGrams": 2, "maxGrams": 15 }
+      ],
+      "description": { "type": "string", "analyzer": "lucene.standard" },
+      "status": { "type": "token" },
+      "categoryId": { "type": "objectId" },
+      "location.city": { "type": "string", "analyzer": "lucene.standard" },
+      "attributes": { "type": "document", "dynamic": true }
+    }
+  }
+}

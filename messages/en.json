@@ -1,0 +1,61 @@
+{
+  "brand": "Marathi Classifieds",
+  "tagline": "Buy and sell across Maharashtra",
+  "nav": {
+    "home": "Home",
+    "search": "Search",
+    "sell": "Sell",
+    "chat": "Chat",
+    "favorites": "Favorites",
+    "profile": "Profile",
+    "login": "Login",
+    "register": "Register",
+    "admin": "Admin",
+    "notifications": "Notifications"
+  },
+  "home": {
+    "heroTitle": "Your local Marathi marketplace",
+    "heroSubtitle": "Find deals near you — cars, phones, homes, and more.",
+    "searchPlaceholder": "Search ads...",
+    "categories": "Categories",
+    "featured": "Featured ads",
+    "latest": "Latest ads",
+    "nearby": "Nearby ads",
+    "safetyTitle": "Stay safe while buying and selling",
+    "safetyBody": "Meet in public places. Never pay in advance. Verify the item before you buy."
+  },
+  "auth": {
+    "loginTitle": "Welcome back",
+    "registerTitle": "Create your account",
+    "email": "Email",
+    "phone": "Phone",
+    "password": "Password",
+    "name": "Full name",
+    "otpTitle": "Verify OTP",
+    "otpHint": "Enter the 6-digit code we sent you",
+    "continueGoogle": "Continue with Google",
+    "or": "or"
+  },
+  "ads": {
+    "price": "Price",
+    "location": "Location",
+    "condition": "Condition",
+    "chatSeller": "Chat with seller",
+    "favorite": "Save",
+    "related": "Related ads",
+    "views": "views",
+    "publish": "Publish",
+    "draft": "Save draft",
+    "preview": "Preview"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "empty": "Nothing here yet",
+    "save": "Save",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "back": "Back",
+    "next": "Next"
+  }
+}
